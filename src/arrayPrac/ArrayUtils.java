@@ -20,8 +20,9 @@ public class ArrayUtils {
       // TODO: handle exception
       System.out.println("Error reading input: " + e.getMessage());
       return new int[0];
-    } finally {
-      scanner.close();
-    }
+    } 
+    // finally {
+    //   scanner.close();
+    // }
   }
 }

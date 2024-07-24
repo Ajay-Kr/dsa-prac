@@ -1,11 +1,8 @@
 package arrayPrac;
 
-import java.util.Scanner;
-
 public class SpanOfArray implements ArrayOperation {
   @Override
   public void calculateSpan(int[] array) {
-    Scanner sc = new Scanner(System.in);
     try {
       int max = array[0];
       int min = array[0];
@@ -23,8 +20,6 @@ public class SpanOfArray implements ArrayOperation {
 
     } catch (Exception e) {
       // TODO: handle exception
-    } finally {
-      sc.close();
     }
   }  
 }
